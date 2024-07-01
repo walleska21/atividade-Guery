@@ -1,9 +1,9 @@
-.h1{
-    background-color: rgb(245, 150, 9);
-    font-style: apple Chancery;
+@import url(styles/header.css);
+:root{
+--cor-de-fundo: #9949B4;
+--cor-do-cabecalho: #FFFFFF;
 }
-
-.izebel_frase{
-    background-color: darkgoldenrod;
-    font-style: Luminari;
+body{
+background-color: var(--cor-de-fundo);
+margin: 0;
 }
